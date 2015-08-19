@@ -1,0 +1,42 @@
+{
+  "name": "node-hue-milight-local-proxy",
+  "version": "0.0.1",
+  "description": "Local proxy to connect from applications that use the \"hue\" API to milight using a local connection (such as Raspberry Pi)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cognitivegears/node-hue-milight-local-proxy.git"
+  },
+  "keywords": [
+    "hue",
+    "milight",
+    "limitlessled",
+    "raspi",
+    "rpi",
+    "raspberrypi",
+    "led",
+    "home",
+    "automation"
+  ],
+  "author": "Nathan Byrd",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/cognitivegears/node-hue-milight-local-proxy/issues"
+  },
+  "homepage": "https://github.com/cognitivegears/node-hue-milight-local-proxy#readme",
+  "dependencies": {
+    "bunyan": "^1.4.0",
+    "extend": "^2.0.1",
+    "ip": "^0.3.3",
+    "node-milight-local-promise": "0.0.2",
+    "peer-ssdp": "0.0.5",
+    "restify": "^3.0.3"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-coffee": "^0.13.0"
+  }
+}
