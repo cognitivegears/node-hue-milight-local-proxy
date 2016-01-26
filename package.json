@@ -1,6 +1,6 @@
 {
   "name": "node-hue-milight-local-proxy",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Local proxy to connect from applications that use the \"hue\" API to milight using a local connection (such as Raspberry Pi)",
   "main": "index.js",
   "scripts": {
@@ -31,7 +31,7 @@
     "bunyan": "^1.4.0",
     "extend": "^2.0.1",
     "ip": "^0.3.3",
-    "node-milight-local-promise": "0.0.2",
+    "node-milight-local-promise": "0.0.3",
     "peer-ssdp": "0.0.5",
     "restify": "^3.0.3"
   },
